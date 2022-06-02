@@ -21,3 +21,5 @@ sudo apt-get install -y aspnetcore-runtime-6.0
 
 sudo apt-get update
 sudo apt install -y docker.io
+
+sudo apt-get install -y npm

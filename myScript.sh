@@ -30,3 +30,6 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 sudo apt-get install -y openjdk-11-jdk
 echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' > /etc/profile.d/jdk.sh  
 echo 'export PATH=$JAVA_HOME/bin:$PATH' >> /etc/profile.d/jdk.sh
+
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
